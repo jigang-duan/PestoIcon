@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PestoIcon_Example' do
+  pod 'PestoIcon', :path => '../'
+
+  target 'PestoIcon_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module PestoIcon {
+  umbrella header "PestoIcon-umbrella.h"
+
+  export *
+  module * { export * }
+}

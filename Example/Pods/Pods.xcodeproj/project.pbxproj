@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		332C201F200C95760044F68E /* IconHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C201E200C95760044F68E /* IconHome.swift */; };
+		332C2021200C9A750044F68E /* IconFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C2020200C9A740044F68E /* IconFavorite.swift */; };
+		332C2023200CB3730044F68E /* IconFish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C2022200CB3730044F68E /* IconFish.swift */; };
+		332C2025200CB97D0044F68E /* IconTrending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C2024200CB97D0044F68E /* IconTrending.swift */; };
+		332C2027200CBB120044F68E /* IconMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C2026200CBB120044F68E /* IconMain.swift */; };
+		332C2029200CBC9A0044F68E /* IconMeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C2028200CBC9A0044F68E /* IconMeat.swift */; };
+		332C202B200CBECE0044F68E /* IconSpicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C202A200CBECE0044F68E /* IconSpicy.swift */; };
+		332C202D200CBFF20044F68E /* IconTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C202C200CBFF20044F68E /* IconTimer.swift */; };
+		332C202F200CC18F0044F68E /* IconVeggie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C202E200CC18F0044F68E /* IconVeggie.swift */; };
+		40F4116813A891581190D5F2FD5F17AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		518919B11B830D4DA2185BC1271C5D25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		70B8BC793F2660B4CD0B16189A5C8120 /* Pods-PestoIcon_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E67BE82193BC50D4C36A938D5150E340 /* Pods-PestoIcon_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BA4C350CFFB130D1C24397EE020D3FD /* Pods-PestoIcon_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 148598F2BFDD6CDC98F657E5B159340A /* Pods-PestoIcon_Example-dummy.m */; };
+		AD9D0F2DE1413FE69E180100D400A942 /* Pods-PestoIcon_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C9C0571B8F2FAB2CFCEEF874CB6AE0 /* Pods-PestoIcon_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B141FD473651888B813ACDA2ABF886CC /* PestoIcon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5315932F8F420062F865200A3212DB2F /* PestoIcon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD1E941E4337634F8F43E0E6F777F8FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D5C09A3844867E5F47A3E9B966D76B79 /* PestoIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24573210EAAE9BC18BC249EAB2F38FA3 /* PestoIcon.swift */; };
+		E12CA06B166D07B6F11D4AF015794ED1 /* Pods-PestoIcon_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F6E0EC1F4C75F80E90578DA1B0C6A /* Pods-PestoIcon_Tests-dummy.m */; };
+		EC3F34999D5BC9DD02CB26D58A03019A /* PestoIcon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EDFDB8E1E912D4A7959A25E5670DA9 /* PestoIcon-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A47548F9920251ABFD44EBB7AEC285A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16CC65BA97B7CAC70E17BBF40BC9A6B8;
+			remoteInfo = PestoIcon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		113CFB152579BAD99719FD96DA6D05E0 /* Pods_PestoIcon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PestoIcon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EBB74A9F36E2A408337C6A68EF5D21 /* Pods-PestoIcon_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PestoIcon_Example-resources.sh"; sourceTree = "<group>"; };
+		148598F2BFDD6CDC98F657E5B159340A /* Pods-PestoIcon_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PestoIcon_Example-dummy.m"; sourceTree = "<group>"; };
+		19B5C16AE7CE333DEB9A7638FC10BEB8 /* Pods-PestoIcon_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PestoIcon_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1BA76C550D22BC111A5D04A9101FCC9E /* Pods-PestoIcon_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PestoIcon_Example.modulemap"; sourceTree = "<group>"; };
+		24573210EAAE9BC18BC249EAB2F38FA3 /* PestoIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PestoIcon.swift; path = PestoIcon/Classes/PestoIcon.swift; sourceTree = "<group>"; };
+		270BDF71E69E4F71D3795F1ECBE253D0 /* PestoIcon.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PestoIcon.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2E77926CF71DF22F1A3807D62FE33698 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		332C201E200C95760044F68E /* IconHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IconHome.swift; path = PestoIcon/Classes/IconHome.swift; sourceTree = "<group>"; };
+		332C2020200C9A740044F68E /* IconFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IconFavorite.swift; path = PestoIcon/Classes/IconFavorite.swift; sourceTree = "<group>"; };
+		332C2022200CB3730044F68E /* IconFish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IconFish.swift; path = PestoIcon/Classes/IconFish.swift; sourceTree = "<group>"; };
+		332C2024200CB97D0044F68E /* IconTrending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IconTrending.swift; path = PestoIcon/Classes/IconTrending.swift; sourceTree = "<group>"; };
+		332C2026200CBB120044F68E /* IconMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IconMain.swift; path = PestoIcon/Classes/IconMain.swift; sourceTree = "<group>"; };
+		332C2028200CBC9A0044F68E /* IconMeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IconMeat.swift; path = PestoIcon/Classes/IconMeat.swift; sourceTree = "<group>"; };
+		332C202A200CBECE0044F68E /* IconSpicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IconSpicy.swift; path = PestoIcon/Classes/IconSpicy.swift; sourceTree = "<group>"; };
+		332C202C200CBFF20044F68E /* IconTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IconTimer.swift; path = PestoIcon/Classes/IconTimer.swift; sourceTree = "<group>"; };
+		332C202E200CC18F0044F68E /* IconVeggie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IconVeggie.swift; path = PestoIcon/Classes/IconVeggie.swift; sourceTree = "<group>"; };
+		5315932F8F420062F865200A3212DB2F /* PestoIcon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PestoIcon-umbrella.h"; sourceTree = "<group>"; };
+		604F6F525E404458B8A9B696D1285B4C /* Pods-PestoIcon_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PestoIcon_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C1F6E0EC1F4C75F80E90578DA1B0C6A /* Pods-PestoIcon_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PestoIcon_Tests-dummy.m"; sourceTree = "<group>"; };
+		83B86B13D4712148B26F68EF04D0AA6E /* Pods-PestoIcon_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PestoIcon_Example-frameworks.sh"; sourceTree = "<group>"; };
+		847756F13582220AD9C505AB066C2C43 /* Pods-PestoIcon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PestoIcon_Example.release.xcconfig"; sourceTree = "<group>"; };
+		88EDFDB8E1E912D4A7959A25E5670DA9 /* PestoIcon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PestoIcon-dummy.m"; sourceTree = "<group>"; };
+		8ABF3E9F848BAC8808184A6DC04DC1F5 /* PestoIcon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PestoIcon.modulemap; sourceTree = "<group>"; };
+		907D8D7FD4C5222ECA58A5E285E5608A /* PestoIcon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PestoIcon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99C9C0571B8F2FAB2CFCEEF874CB6AE0 /* Pods-PestoIcon_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PestoIcon_Example-umbrella.h"; sourceTree = "<group>"; };
+		A052333F4D13F725F68B14A4B89E283E /* Pods-PestoIcon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PestoIcon_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ADFBF7FFABF6CD054E270DDAA8F3F2A5 /* Pods-PestoIcon_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PestoIcon_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B15FD51467794044E938616BD79CB935 /* Pods-PestoIcon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PestoIcon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB4D2F5E81A881B20C53795B95039259 /* Pods_PestoIcon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PestoIcon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6B5C38CA34229BA54127D9FBD5F952 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC4E131EC29C265F3F23D3111F637AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D480C3E5CFB6F293F21DE53D7552DA9F /* Pods-PestoIcon_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PestoIcon_Tests-resources.sh"; sourceTree = "<group>"; };
+		E433ECAA136FC705302E03B7E58916AD /* Pods-PestoIcon_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PestoIcon_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E67BE82193BC50D4C36A938D5150E340 /* Pods-PestoIcon_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PestoIcon_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E6BDADC74342EA41D1034A8E20F832D5 /* Pods-PestoIcon_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PestoIcon_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E774D0FF4D615DC1C0EFAE8F6BDF8947 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF01DD8ABFFE992095C5E98AD9A3ECB7 /* Pods-PestoIcon_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PestoIcon_Tests.modulemap"; sourceTree = "<group>"; };
+		FAA485FC0D24FCA5898CF60757A899BA /* PestoIcon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PestoIcon-prefix.pch"; sourceTree = "<group>"; };
+		FAD067EA11D63C5BCFFC81D153C04FCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FB22AED76A0F6C1A70396DE6F6594228 /* Pods-PestoIcon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PestoIcon_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FF3CFC8BD742F01F1F1DA5191E138300 /* PestoIcon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PestoIcon.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3739A8E0075FD8D98151134C5368B244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F4116813A891581190D5F2FD5F17AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40AE63B228415AF539045F0720F7D0D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518919B11B830D4DA2185BC1271C5D25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94C420231234A8341E7206C1E9BE568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1E941E4337634F8F43E0E6F777F8FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10519983719061DDB5612A78C92F6CD2 /* PestoIcon */ = {
+			isa = PBXGroup;
+			children = (
+				24573210EAAE9BC18BC249EAB2F38FA3 /* PestoIcon.swift */,
+				332C201E200C95760044F68E /* IconHome.swift */,
+				332C2020200C9A740044F68E /* IconFavorite.swift */,
+				332C2022200CB3730044F68E /* IconFish.swift */,
+				332C2024200CB97D0044F68E /* IconTrending.swift */,
+				332C2026200CBB120044F68E /* IconMain.swift */,
+				332C2028200CBC9A0044F68E /* IconMeat.swift */,
+				332C202A200CBECE0044F68E /* IconSpicy.swift */,
+				332C202C200CBFF20044F68E /* IconTimer.swift */,
+				332C202E200CC18F0044F68E /* IconVeggie.swift */,
+				62FC6E35E9FD1D43396EB9191B34931A /* Pod */,
+				11CE355C171A5B00FCABEBABDF6D4D69 /* Support Files */,
+			);
+			name = PestoIcon;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		11CE355C171A5B00FCABEBABDF6D4D69 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E77926CF71DF22F1A3807D62FE33698 /* Info.plist */,
+				8ABF3E9F848BAC8808184A6DC04DC1F5 /* PestoIcon.modulemap */,
+				FF3CFC8BD742F01F1F1DA5191E138300 /* PestoIcon.xcconfig */,
+				88EDFDB8E1E912D4A7959A25E5670DA9 /* PestoIcon-dummy.m */,
+				FAA485FC0D24FCA5898CF60757A899BA /* PestoIcon-prefix.pch */,
+				5315932F8F420062F865200A3212DB2F /* PestoIcon-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PestoIcon";
+			sourceTree = "<group>";
+		};
+		1239537015E7340D259B5344ACFB1539 /* Pods-PestoIcon_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E774D0FF4D615DC1C0EFAE8F6BDF8947 /* Info.plist */,
+				EF01DD8ABFFE992095C5E98AD9A3ECB7 /* Pods-PestoIcon_Tests.modulemap */,
+				E433ECAA136FC705302E03B7E58916AD /* Pods-PestoIcon_Tests-acknowledgements.markdown */,
+				ADFBF7FFABF6CD054E270DDAA8F3F2A5 /* Pods-PestoIcon_Tests-acknowledgements.plist */,
+				6C1F6E0EC1F4C75F80E90578DA1B0C6A /* Pods-PestoIcon_Tests-dummy.m */,
+				604F6F525E404458B8A9B696D1285B4C /* Pods-PestoIcon_Tests-frameworks.sh */,
+				D480C3E5CFB6F293F21DE53D7552DA9F /* Pods-PestoIcon_Tests-resources.sh */,
+				E67BE82193BC50D4C36A938D5150E340 /* Pods-PestoIcon_Tests-umbrella.h */,
+				B15FD51467794044E938616BD79CB935 /* Pods-PestoIcon_Tests.debug.xcconfig */,
+				FB22AED76A0F6C1A70396DE6F6594228 /* Pods-PestoIcon_Tests.release.xcconfig */,
+			);
+			name = "Pods-PestoIcon_Tests";
+			path = "Target Support Files/Pods-PestoIcon_Tests";
+			sourceTree = "<group>";
+		};
+		45754ACFC4D0FDEA52FE6E3358696581 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10519983719061DDB5612A78C92F6CD2 /* PestoIcon */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		62FC6E35E9FD1D43396EB9191B34931A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FAD067EA11D63C5BCFFC81D153C04FCC /* LICENSE */,
+				270BDF71E69E4F71D3795F1ECBE253D0 /* PestoIcon.podspec */,
+				BFC4E131EC29C265F3F23D3111F637AF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				45754ACFC4D0FDEA52FE6E3358696581 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EDA69F22F057FC5C735486BAD1EDA89E /* Products */,
+				ADC94B26F950CA425AC188E4F4DABF9D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ADC94B26F950CA425AC188E4F4DABF9D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFB9CB12BD30FD96C9AB3E17EB272C7E /* Pods-PestoIcon_Example */,
+				1239537015E7340D259B5344ACFB1539 /* Pods-PestoIcon_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AFB9CB12BD30FD96C9AB3E17EB272C7E /* Pods-PestoIcon_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BD6B5C38CA34229BA54127D9FBD5F952 /* Info.plist */,
+				1BA76C550D22BC111A5D04A9101FCC9E /* Pods-PestoIcon_Example.modulemap */,
+				E6BDADC74342EA41D1034A8E20F832D5 /* Pods-PestoIcon_Example-acknowledgements.markdown */,
+				19B5C16AE7CE333DEB9A7638FC10BEB8 /* Pods-PestoIcon_Example-acknowledgements.plist */,
+				148598F2BFDD6CDC98F657E5B159340A /* Pods-PestoIcon_Example-dummy.m */,
+				83B86B13D4712148B26F68EF04D0AA6E /* Pods-PestoIcon_Example-frameworks.sh */,
+				11EBB74A9F36E2A408337C6A68EF5D21 /* Pods-PestoIcon_Example-resources.sh */,
+				99C9C0571B8F2FAB2CFCEEF874CB6AE0 /* Pods-PestoIcon_Example-umbrella.h */,
+				A052333F4D13F725F68B14A4B89E283E /* Pods-PestoIcon_Example.debug.xcconfig */,
+				847756F13582220AD9C505AB066C2C43 /* Pods-PestoIcon_Example.release.xcconfig */,
+			);
+			name = "Pods-PestoIcon_Example";
+			path = "Target Support Files/Pods-PestoIcon_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EDA69F22F057FC5C735486BAD1EDA89E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				907D8D7FD4C5222ECA58A5E285E5608A /* PestoIcon.framework */,
+				BB4D2F5E81A881B20C53795B95039259 /* Pods_PestoIcon_Example.framework */,
+				113CFB152579BAD99719FD96DA6D05E0 /* Pods_PestoIcon_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E1CDAB9F3958AB570DB089C0A6660F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9D0F2DE1413FE69E180100D400A942 /* Pods-PestoIcon_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7176E9A8F8D415B8780184B5012D28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B8BC793F2660B4CD0B16189A5C8120 /* Pods-PestoIcon_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA7D0350C1CF91970A6702CADDAD64C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B141FD473651888B813ACDA2ABF886CC /* PestoIcon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DAE5FB392CB3073390AB9E82B056291 /* Pods-PestoIcon_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08E63EA619C65B6C36644CB5980E313D /* Build configuration list for PBXNativeTarget "Pods-PestoIcon_Tests" */;
+			buildPhases = (
+				78289E9FD79505EEDA1AA517BC85D453 /* Sources */,
+				40AE63B228415AF539045F0720F7D0D4 /* Frameworks */,
+				AC7176E9A8F8D415B8780184B5012D28 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PestoIcon_Tests";
+			productName = "Pods-PestoIcon_Tests";
+			productReference = 113CFB152579BAD99719FD96DA6D05E0 /* Pods_PestoIcon_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		16CC65BA97B7CAC70E17BBF40BC9A6B8 /* PestoIcon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 343E59BB10C936DE212027C02B5936B2 /* Build configuration list for PBXNativeTarget "PestoIcon" */;
+			buildPhases = (
+				8BF905713E19F198A9FB4E0231E0B3C1 /* Sources */,
+				C94C420231234A8341E7206C1E9BE568 /* Frameworks */,
+				EBA7D0350C1CF91970A6702CADDAD64C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PestoIcon;
+			productName = PestoIcon;
+			productReference = 907D8D7FD4C5222ECA58A5E285E5608A /* PestoIcon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBEAEE323BD604B0373747116B80634E /* Pods-PestoIcon_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821DFFE923BF5B83D909E29493F5D80A /* Build configuration list for PBXNativeTarget "Pods-PestoIcon_Example" */;
+			buildPhases = (
+				8E6AD144320BA81D2B30761FFC52D1F3 /* Sources */,
+				3739A8E0075FD8D98151134C5368B244 /* Frameworks */,
+				5E1CDAB9F3958AB570DB089C0A6660F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D5DD0DA6AA2DBD44B6AC3E0C4CCCEDD /* PBXTargetDependency */,
+			);
+			name = "Pods-PestoIcon_Example";
+			productName = "Pods-PestoIcon_Example";
+			productReference = BB4D2F5E81A881B20C53795B95039259 /* Pods_PestoIcon_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EDA69F22F057FC5C735486BAD1EDA89E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16CC65BA97B7CAC70E17BBF40BC9A6B8 /* PestoIcon */,
+				DBEAEE323BD604B0373747116B80634E /* Pods-PestoIcon_Example */,
+				0DAE5FB392CB3073390AB9E82B056291 /* Pods-PestoIcon_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78289E9FD79505EEDA1AA517BC85D453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12CA06B166D07B6F11D4AF015794ED1 /* Pods-PestoIcon_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF905713E19F198A9FB4E0231E0B3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3F34999D5BC9DD02CB26D58A03019A /* PestoIcon-dummy.m in Sources */,
+				332C2029200CBC9A0044F68E /* IconMeat.swift in Sources */,
+				332C202F200CC18F0044F68E /* IconVeggie.swift in Sources */,
+				332C202D200CBFF20044F68E /* IconTimer.swift in Sources */,
+				332C201F200C95760044F68E /* IconHome.swift in Sources */,
+				332C2021200C9A750044F68E /* IconFavorite.swift in Sources */,
+				D5C09A3844867E5F47A3E9B966D76B79 /* PestoIcon.swift in Sources */,
+				332C2023200CB3730044F68E /* IconFish.swift in Sources */,
+				332C2025200CB97D0044F68E /* IconTrending.swift in Sources */,
+				332C202B200CBECE0044F68E /* IconSpicy.swift in Sources */,
+				332C2027200CBB120044F68E /* IconMain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6AD144320BA81D2B30761FFC52D1F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA4C350CFFB130D1C24397EE020D3FD /* Pods-PestoIcon_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D5DD0DA6AA2DBD44B6AC3E0C4CCCEDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PestoIcon;
+			target = 16CC65BA97B7CAC70E17BBF40BC9A6B8 /* PestoIcon */;
+			targetProxy = 1A47548F9920251ABFD44EBB7AEC285A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		331E19A2BF4FA26B1F22C975FF6457F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB22AED76A0F6C1A70396DE6F6594228 /* Pods-PestoIcon_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PestoIcon_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PestoIcon_Tests/Pods-PestoIcon_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PestoIcon_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		77A5488C3A10F2ED27D0D057FFAA6DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF3CFC8BD742F01F1F1DA5191E138300 /* PestoIcon.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PestoIcon/PestoIcon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PestoIcon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PestoIcon/PestoIcon.modulemap";
+				PRODUCT_NAME = PestoIcon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88C124D5A369A9368249C65D8B294C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A052333F4D13F725F68B14A4B89E283E /* Pods-PestoIcon_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PestoIcon_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PestoIcon_Example/Pods-PestoIcon_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PestoIcon_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8EF8598B7CE51CCF91EB29C21E1E0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF3CFC8BD742F01F1F1DA5191E138300 /* PestoIcon.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PestoIcon/PestoIcon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PestoIcon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PestoIcon/PestoIcon.modulemap";
+				PRODUCT_NAME = PestoIcon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE387741077A36199ECEDB9514FBE878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B15FD51467794044E938616BD79CB935 /* Pods-PestoIcon_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PestoIcon_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PestoIcon_Tests/Pods-PestoIcon_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PestoIcon_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EBF3949E994434D8CF769E024DEA1900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847756F13582220AD9C505AB066C2C43 /* Pods-PestoIcon_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PestoIcon_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PestoIcon_Example/Pods-PestoIcon_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PestoIcon_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08E63EA619C65B6C36644CB5980E313D /* Build configuration list for PBXNativeTarget "Pods-PestoIcon_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE387741077A36199ECEDB9514FBE878 /* Debug */,
+				331E19A2BF4FA26B1F22C975FF6457F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		343E59BB10C936DE212027C02B5936B2 /* Build configuration list for PBXNativeTarget "PestoIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A5488C3A10F2ED27D0D057FFAA6DFB /* Debug */,
+				B8EF8598B7CE51CCF91EB29C21E1E0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821DFFE923BF5B83D909E29493F5D80A /* Build configuration list for PBXNativeTarget "Pods-PestoIcon_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C124D5A369A9368249C65D8B294C45 /* Debug */,
+				EBF3949E994434D8CF769E024DEA1900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

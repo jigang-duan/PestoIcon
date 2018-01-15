@@ -1,0 +1,16 @@
+PODS:
+  - PestoIcon (0.1.0)
+
+DEPENDENCIES:
+  - PestoIcon (from `../`)
+
+EXTERNAL SOURCES:
+  PestoIcon:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PestoIcon: fc1c4bb1674db7f1efd3e099ca5a6df74826aaba
+
+PODFILE CHECKSUM: 257cd1c7498f613c6c673fef1df12f6a41a505d6
+
+COCOAPODS: 1.4.0.rc.1

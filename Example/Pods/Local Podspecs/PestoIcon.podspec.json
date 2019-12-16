@@ -1,7 +1,7 @@
 {
   "name": "PestoIcon",
   "version": "0.1.0",
-  "summary": "A short description of PestoIcon.",
+  "summary": "some code icon images.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/jigang-duan/PestoIcon",
   "license": {
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PestoIcon/Classes/**/*"
+  "source_files": "PestoIcon/Classes/**/*",
+  "dependencies": {
+    "SwiftSVG": [
+      "~> 2.0"
+    ]
+  }
 }

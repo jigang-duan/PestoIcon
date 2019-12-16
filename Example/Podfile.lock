@@ -1,5 +1,7 @@
 PODS:
-  - PestoIcon (0.1.0)
+  - PestoIcon (0.1.0):
+    - SwiftSVG (~> 2.0)
+  - SwiftSVG (2.1.2)
 
 DEPENDENCIES:
   - PestoIcon (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PestoIcon: fc1c4bb1674db7f1efd3e099ca5a6df74826aaba
+  PestoIcon: 03193ad332abd321687eebc1ffc2c16e53d0deda
+  SwiftSVG: 62d14020b1cca49c096ce8b752d35f46722231d5
 
 PODFILE CHECKSUM: 257cd1c7498f613c6c673fef1df12f6a41a505d6
 
